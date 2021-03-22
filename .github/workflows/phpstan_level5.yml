@@ -3,7 +3,7 @@ on:
     branches:
     - main
 
-name: Test
+name: PHPStan - Level 5
 
 jobs:
   phpstan:
