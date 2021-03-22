@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Steelblade\\Discriminator\\": "src/"
+            "Steelblade\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Steelblade\\Discriminator\\tests\\": "tests/"
+            "Steelblade\\tests\\": "tests/"
         }
     },
     "require-dev": {

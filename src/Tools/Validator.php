@@ -19,7 +19,7 @@ namespace Steelblade\Tools;
 
     /** For the Americans. */
     public static function color(string $input):bool {
-        return Steelblade\Validator::colour($input);
+        return self::colour($input);
     }
 
     public static function username(string $input, array $restricted = array()):bool {
