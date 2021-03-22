@@ -1,0 +1,34 @@
+{
+    "name": "mastersteelblade/framework",
+    "type": "library",
+    "description": "Simple framework to make my life easier.",
+
+    "homepage": "https://github.com/MasterSteelblade/framework",
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Benjamin Clarke",
+            "email": "mastersteelblade@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Steelblade\\Discriminator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Steelblade\\Discriminator\\tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
