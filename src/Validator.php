@@ -1,6 +1,6 @@
 <?php 
 
-namespace Steelblade\Framework;
+namespace Steelblade\Tools;
 
 /**
  * Class to provide basic validation of things. 
@@ -19,7 +19,7 @@ namespace Steelblade\Framework;
 
     /** For the Americans. */
     public static function color(string $input):bool {
-        return Steelblade\Framework\Validator::colour($input);
+        return Steelblade\Validator::colour($input);
     }
 
     public static function username(string $input, array $restricted = array()):bool {
@@ -30,6 +30,7 @@ namespace Steelblade\Framework;
         }
         return $matched;
     }
+
     public static function email(string $email):bool {
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $matched = true;
