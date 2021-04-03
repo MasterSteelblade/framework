@@ -68,7 +68,7 @@ namespace Steelblade\Utilities;
          */
 
          public static function generate():int {
-             return random_int(0, 9999);
+             return random_int(1000, 9999);
          }
 
          public function get():int {
