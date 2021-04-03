@@ -26,7 +26,11 @@ namespace Steelblade\Tools;
 
     public static function username(string $input, array $restricted = array()):bool {
         if (preg_match('/^[-a-zA-Z0-9_]+$/', $input) !== 0) {
-            $matched = true;
+            if (in_array(strtolower($input), $restricted)) {
+                $matched = false;
+            } else {
+                $matched = true;
+            }
         } else {
             $matched = false;
         }
