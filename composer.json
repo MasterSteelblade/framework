@@ -11,10 +11,9 @@
             "email": "mastersteelblade@protonmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4",
-        "ramsey/uuid": "4.x-dev"
+        "ramsey/uuid": "^4.1"
     },
     "config": {
         "sort-packages": true
