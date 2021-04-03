@@ -6,8 +6,6 @@ namespace Steelblade\Utilities;
  * This is a very simple class designed to make things like
  * user discriminators a tiny bit easier to use. 
  * 
- * @see https://github.com/MasterSteelblade/php-discriminator
- * 
  * @author Benjamin Clarke <mastersteelblade@protonmail.com>
  */
 
