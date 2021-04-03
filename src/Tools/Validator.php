@@ -4,6 +4,8 @@ namespace Steelblade\Tools;
 
 /**
  * Class to provide basic validation of things. 
+ * 
+ * @author Benjamin Clarke <mastersteelblade@protonmail.com>
  */
 
  class Validator {
